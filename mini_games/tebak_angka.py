@@ -7,3 +7,4 @@ if tebakan == angka:
     print("Kamu menebak dengan tepat!")
 else:
     print("Salah! Jawabannya:", angka)
+    print("INI BUG BESAR 😈")
