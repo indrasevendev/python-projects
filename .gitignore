@@ -3,3 +3,8 @@ instance/
 *.sqlite3
 __pycache__/
 .env
+*.pyc
+.venv/
+.coverage
+htmlcov/
+.pytest_cache/
