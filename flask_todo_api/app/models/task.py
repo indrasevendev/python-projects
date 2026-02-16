@@ -6,6 +6,8 @@ class Task(db.Model):
     done = db.Column(db.Boolean, default=False)
     description = db.Column(db.String(300))
 
+    user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False)
+
     def to_dict(self):
         return {
             "id": self.id,
